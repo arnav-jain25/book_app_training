@@ -1,0 +1,53 @@
+.wrapper {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+nav {
+    background-color: cadetblue;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    align-items: center;
+    /* box-shadow: 0 0 25px 0 black; */
+}
+
+nav * {
+    display: inline;
+}
+
+nav li {
+    margin: 20px;
+}
+
+nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: aliceblue;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+table,
+th {
+    border: 2px solid salmon;
+    text-align: center;
+    background-color: cadetblue;
+    color: azure;
+}
+
+tr,
+td {
+    border: 1px solid saddlebrown;
+    text-align: center;
+    background-color: whitesmoke;
+    color: cadetblue;
+}

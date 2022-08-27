@@ -1,0 +1,25 @@
+<div class="container">
+    <form #editBook="ngForm">
+
+        <label for="id">Id#</label>
+        <input type="text" name="id" id="id" [ngModel]="book.id" readonly>
+
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" [ngModel]="book.title">
+
+        <label for="id">Author</label>
+        <input type="text" name="author" id="author" [ngModel]="book.author">
+
+        <label for="copies">Copies</label>
+        <input type="text" name="copies" id="copies" [ngModel]="book.copies">
+
+        <br>
+        <br>
+        <button  (click)="updateBook(editBook.value)" class="btn btn-success">Update </button>
+
+        <br>
+        {{editBook.value | json}}
+
+    </form>
+
+</div>

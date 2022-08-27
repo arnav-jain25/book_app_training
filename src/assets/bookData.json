@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": 2,
+      "title": "BBBB",
+      "author": "Celina Roughs",
+      "copies": 54
+    },
+    {
+      "id": 3,
+      "title": "DFCK",
+      "author": "Mclera Channing",
+      "copies": 40928
+    },
+    {
+      "id": 6,
+      "title": "FFFF",
+      "author": "Ryan Shorts",
+      "copies": "10"
+    }
+  ]
+}

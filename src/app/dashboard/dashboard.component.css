@@ -1,0 +1,39 @@
+.container{
+    background-color:aliceblue;
+    padding: 2%;
+}
+nav {
+    background-color: cadetblue;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    align-items: center;
+    /* box-shadow: 0 0 25px 0 black; */
+}
+
+nav * {
+    display: inline;
+}
+
+nav li {
+    margin: 20px;
+}
+nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: aliceblue;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+h1{
+    margin: 20%;
+    text-align: center;
+    padding: 5%;
+    border-radius:100%;
+    border: 10px solid salmon;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

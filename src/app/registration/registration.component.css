@@ -1,0 +1,12 @@
+div{
+    text-align: center;
+}
+
+#regForm{
+    background: #f2f2f2;
+    width: 50%;
+    padding: 75px;
+}
+#regButton{
+    text-align: center;
+}

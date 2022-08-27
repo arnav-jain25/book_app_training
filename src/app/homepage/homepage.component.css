@@ -1,0 +1,14 @@
+/* (A) FLEX WRAPPER */
+.wrapper {
+    display: flex;
+    background: #f2f2f2;
+    text-align: center;
+    }
+/* (B) LEFT-RIGHT DIMENSIONS */
+.left-side { width: 50%; }
+.right-side { flex-grow: 1; } /* auto use all remaining space */
+.left-side, .right-side { padding: 10px; }
+   
+/* (C) VERTICAL LINE */
+.left-side { border-right: 5px solid cadetblue; }
+
